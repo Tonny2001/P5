@@ -1,0 +1,182 @@
+body{
+    background-color: black;
+}
+
+.Titulo-Principal {
+    margin: 20% 28% 20% 37%;
+    font-size: 70px;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.contenedor-principal{
+    width: 100%;
+    /* background-image: url("https://i0.wp.com/www.alexurbanpop.com/wp-content/uploads/2016/07/Shawn-Mendes-Treat-You-Better.jpg?ssl=1");
+    background-size: cover;
+    background-position: bottom; */
+    background-color: #ff4500;
+    border-color: black;
+    padding: 2px 10px 2px 10px;
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+
+
+
+.about {
+    font-size: 18px;
+
+}
+.titulos {
+    color: #db6134;
+    margin-top: 80px;
+    margin-left: 95px;
+    font-size: 80px;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.contenedor {
+    width: 90%;
+    display: flex;
+    margin: 0 5% 0 5%;
+}
+
+.album {
+    width: 20%;
+    margin: 20px 35px 10px 35px;
+    
+}
+
+.img-album {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.titulo-album, p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #395281;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.ultimo-album {
+    width: 20%;
+    margin: 25px 35px 0 35px;
+    
+}
+
+.derechos-autor {
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: 'Gabarito', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.contenedor-miniatura{
+    width: 40%;
+}
+
+.titulo-miniatura{
+    margin-bottom: 2px;
+    font-size: 30px;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.fecha-miniatura {
+    font-size: 20px;
+    font-family: 'Gabarito', sans-serif;
+    color: black;
+
+}
+
+.li-miniatura {
+    font-family: 'Gabarito', sans-serif;
+    color: black;
+    font-size: 19px;
+}
+
+.miniatura {
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.miniatura-img{
+    
+    width: 15%;
+    height: 15%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.cancion-miniatura {
+    margin-top: 30px;
+}
+
+.iconos {
+    width: 30%;    
+    margin: 8% 15px 0 35px;
+    text-align: right;
+}
+
+.icon {
+    font-size: 30px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.icon:hover{
+    background-color: #9b4628;
+    cursor: pointer;
+}
+
+.ultimo {
+    background-color: #23385f;
+    border-radius: 10px;
+}
+
+.contenedor-top{
+    width: 90%;
+    background-color: #23385f;
+    margin: 0 5% 0 5%;
+    border-radius: 10px;
+    padding-top: 0.8%;
+    padding-bottom: 1.5%;
+}
+
+.cancion-top{
+    display: flex;
+    width: 90%;  
+    
+}
+
+.contenedor-img-top{
+    width: 8%;
+    margin: 20px 35px 0px 35px;
+}
+
+.img-top {
+    object-fit: cover;
+    width: 100%;
+    
+    border-radius: 2px;  
+    
+}
+
+.canciones {
+    width: 40%;
+    margin-top: 1.5%;
+    font-size: 20px;
+    
+}
+
+.nombre-top{
+    margin: 8% 0 8% 0; 
+    color: black;
+    font-size: 24px;
+}
+
+.iconos-top {
+    margin: 1.5% 15px 0 10%;
+    text-align: right;
+}
