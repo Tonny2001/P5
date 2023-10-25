@@ -150,6 +150,11 @@ body{
     
 }
 
+.cancion-top:hover {
+    background-color: #325088;
+
+}
+
 .contenedor-img-top{
     width: 8%;
     margin: 20px 35px 0px 35px;
@@ -164,8 +169,7 @@ body{
 }
 
 .canciones {
-    width: 40%;
-    margin-top: 1.5%;
+    width: 50%;
     font-size: 20px;
     
 }
@@ -177,7 +181,16 @@ body{
 }
 
 .iconos-top {
-    width: 40%;
+    width: 30%;
     margin: auto 15px auto 4%;
     text-align: right;
+}
+
+.about{
+    width: 90%;
+    margin: 0 5% 0 5%;
+}
+
+.about p{
+    font-size: 20px;
 }
