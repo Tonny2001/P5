@@ -68,22 +68,26 @@ h1{
 }
 
 .buttons{
-    background-color: #7a2303 ;
-    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #7a2303 ; */
+    background-color: black ;
+    width: 47%;
     height: 3em;
     font-size: 1.1rem;
     font-family: 'Gabarito', sans-serif;
     border-radius: 8px;
-    border-color: #b33304;
-    border-image: initial;
-}
-.buttons a{
+    border: 2px solid #7a2303;
     text-decoration: none;
-    color: #030303;
+    color: #ff4500;
 }
+
 
 .buttons:hover{
     background-color: #ff4500;
+    border: 2px solid #030303;
+    color: #000000;
     cursor: pointer;
     
 }

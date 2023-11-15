@@ -1,0 +1,86 @@
+body{
+    
+    background-color: rgb(0, 0, 0);
+}
+
+form{
+    display: flex; 
+    width: 100%;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+   
+    margin: 8% auto;
+    padding: 3%;
+    border: 2.5px bisque solid;
+    
+}
+
+.contenedor h1{
+    font-size: 55px;
+    color: #ff4500;
+    font-family: 'Gabarito', sans-serif;
+   margin: 0.67em auto;
+}
+
+.contenedor label{
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+    margin: 4% 0;
+    font-family: 'Raleway', sans-serif;
+    color: bisque;
+    
+}
+
+textarea{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+/* .contenedor label select{
+    width: 200px;
+} */
+
+.inputs{
+   width: 218px;
+   margin-left: 10px;
+   background-color: black;
+   color: bisque;
+   border: rgb(128, 128, 128) 2px solid;
+   font-size: 18px;
+}
+
+.radios{
+    margin-left: 15px; 
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8% 0;
+}
+
+.buttons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 40%;
+    text-decoration: none;
+    border: 2.5px  #942800 solid;
+    padding: 2%;
+    border-radius: 8px;
+    color: #ff4500;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.buttons a:hover{
+    border: 2.5px  #000000 solid;
+    color: #000000;
+    background-color: #ff4500;
+}

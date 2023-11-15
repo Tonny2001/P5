@@ -3,10 +3,11 @@ body{
 }
 
 .contenedor-nav{
-    width: 99%;
+   
+    width: 100%;
     display: flex;   
     justify-content: space-between;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .navs{
@@ -14,7 +15,13 @@ body{
     margin: 5px 20px;
 }
 
+.navs a{
+    text-decoration: none;
+}
+
+
 .navs ul{
+   
     display: flex;
     flex-direction: initial;
     list-style: none;
@@ -24,15 +31,16 @@ body{
 
 
 .navs li{
+    
     font-family: 'Gabarito', sans-serif;
-    color: black;
+    color: #000000;
     font-size: 22px;
     margin-right: 25px;
-    
+    border-bottom: 2px solid #ff4500;
 }
 
 .navs li:hover{
-    border-bottom: 2px solid #395281;
+    border-bottom: 2px solid #000000;
     cursor: pointer;
 }
 
@@ -45,7 +53,7 @@ body{
 }
 .iconos-nav a{
     text-decoration: none;
-    color: #030303;
+    color: rgb(41, 41, 41);
 }
 
 .iconos-nav i{
@@ -54,8 +62,9 @@ body{
 }
 
 .iconos-nav i:hover{
-    background-color:#395281;
-    border-radius: 20px;
+    
+
+   
     cursor: pointer;
 }
 
@@ -102,13 +111,26 @@ body{
     
 }
 
+.album h2, .album a{
+    text-decoration: none;
+    margin-top: 2px;
+    margin-bottom: 5px;
+   
+    color: #395281;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.album h2:hover{
+    color: bisque;;
+}
+
 .img-album {
     object-fit: cover;
     width: 100%;
     border-radius: 5px;
 }
 
-.titulo-album, p {
+.album p {
     margin-bottom: 5px;
     margin-top: 5px;
     color: #395281;
@@ -120,6 +142,7 @@ body{
     margin: 25px 35px 0 35px;
     
 }
+
 
 .derechos-autor {
     margin: 15px 0;
@@ -182,7 +205,7 @@ body{
 }
 
 .icon:hover{
-    background-color: #9b4628;
+    color: #b33203;
     cursor: pointer;
 }
 
@@ -234,6 +257,7 @@ body{
     margin: 8% 0 8% 0; 
     color: black;
     font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .iconos-top {
@@ -314,31 +338,31 @@ body{
 }
 
 .tour-button{
-    margin-right: 5%;
-    width: 22%;
+    margin-right: 2%;
+    width: 25%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.buttons{
+.tour-button a{
+    width: 40%;
     background-color: #7a2303 ;
-    width: 45%;
-    height: 3em;
-    font-size: 1.1rem;
+    height: 2.8em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    font-size: 1.3rem;
     font-family: 'Gabarito', sans-serif;
-    border-radius: 25px;
-    border-color: #b33304;
-    border-image: initial;
-}
-
-.buttons a{
+    border-radius: 35px;
+    border: 3px #7a2303 solid ;
     text-decoration: none;
     color: #030303;
 }
 
-.buttons:hover{
+.tour-button a:hover{
     background-color: #ff4500;
+    border: 3px rgb(3, 3, 3) solid ;
     cursor: pointer;
     
 }

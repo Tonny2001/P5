@@ -12,7 +12,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <!-- css link -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap" rel="stylesheet">    
+
+<!-- css link -->
     <link rel="stylesheet" href="style.css" type="text/css">
     <!-- remix icon link -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -20,14 +24,16 @@
 </head>
 <body>
 
+  
+
     <div class="contenedor-principal"> 
         <nav class="contenedor-nav">
             <div class="navs menu">
                 <ul>
-                    <li>Inicio</li>
-                    <li>Albumes</li>
-                    <li>Tour</li>
-                    <li>Contacto</li>
+                    <a href="./index.html"><li>Inicio</li></a>
+                    <a href="./index.html"><li>Albumes</li></a>
+                    <a href="./Tour/index.html"><li>Tour</li></a>
+                    <a href="./index.html"><li>Contacto</li></a>
                 </ul>
             </div>
             <div class="navs iconos-nav">
@@ -45,14 +51,15 @@
     <!-- ALBUMES  -->
     <h2 class="titulos">ALBUMES</h2>
     <div class="contenedor">
-        <div class="album">
-            <img class="img-album"  src="./fucklove.png" alt="Handwritten">
-            <h2 class="titulo-album">F*uck Love (2020)</h2>
+        <div class="album" >
+            <img class="img-album"  src="./fucklove.png" alt="Handwritten" >
+            <a href="./album/index.html"><h2>F*uck Love (2020)</h2></a>
+            <!-- <h2 class="titulo-album">F*uck Love (2020)</h2> -->
             <p class="fecha-album">Lanzado el 24/07/2020</p>
         </div>
         <div class="album">
             <img class="img-album"  src="./thefirtstime.png" alt="Illuminate">
-            <h2 class="titulo-album">The First Time (2023)</h2>
+            <a href=""><h2>The First Time (2023)</h2></a>
             <p>Lanzado el 27/01/2016</p>
         </div>
         <!-- <div class="album">
@@ -114,12 +121,14 @@
         <H2 > 2024</H2>
     </div>
     <div class="tour-button">
-        <button class="buttons">
-            <a href="">Ver Fechas</a>
-        </button>
-        <button class="buttons">
-            <a href="">Meet and Greet</a>
-        </button>
+        <a href="./Tour/index.html">
+            Ver Fechas
+        </a>
+        
+        <a href="./Tour/index.html">
+            Meet and Greet
+        </a>
+        
     </div>
 
 </div>
